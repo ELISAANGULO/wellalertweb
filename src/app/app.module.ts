@@ -3,10 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { FooterComponent } from './footer/footer.component';
+import { HomeComponent } from './home/home.component';
+import { IngresoComponent } from './ingreso/ingreso.component';
+import { UsersListComponent } from './users-list/users-list.component';
+import { UsersEditComponent } from './users-edit/users-edit.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { FormsModule } from '@angular/forms';
-import { FooterComponent } from './footer/footer.component';
-import { IngresoComponent } from './ingreso/ingreso.component';
 
 
 @NgModule({
@@ -14,7 +17,10 @@ import { IngresoComponent } from './ingreso/ingreso.component';
     AppComponent,
     NavbarComponent,
     FooterComponent,
+    HomeComponent,
     IngresoComponent,
+    UsersListComponent,
+    UsersEditComponent,
 
  
   ],

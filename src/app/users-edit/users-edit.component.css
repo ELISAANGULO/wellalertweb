@@ -1,0 +1,9 @@
+.container-form {
+    width: 100%;
+    padding: 30px
+}
+span {
+    text-decoration: underline;
+    margin-bottom: 30px;
+    font-weight: bold;
+}

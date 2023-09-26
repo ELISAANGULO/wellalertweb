@@ -1,0 +1,41 @@
+.title-container {
+    padding: 10px;
+    margin-bottom: 73.38px;
+}
+
+.title-container span {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.table-container table tbody tr {
+    height: 88.013px;
+    border-radius: 8px !important;
+    background: #FFF;
+    margin-bottom: 10px;
+}
+
+.table-container table tbody tr,
+.table-container table thead tr {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100% !important;
+    gap: 15px
+}
+
+.table-container table tbody tr td,
+.table-container table thead tr th {
+    border: none !important;
+    width: 100% !important;
+}
+
+.container-icon {
+    display: inline-flex;
+    gap: 28.6px;
+}
+
+.icon-button:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,55 @@
+<div class="container">
+    <div class="row title-container">
+        <div class="col-md-6">
+            <span class="title">administracion de usuarios</span>
+        </div>
+        <div class="col-md-6 container d-flex">
+            <div class="col-6">
+                <button class="btn btn-dark" type="button" (click)="crearUsuario()">Crear usuario</button>
+            </div>
+            <div class="col-6 container-fluid">
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 table-container">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">Usuario</th>
+                        <th scope="col">Nombre</th>
+                        <th scope="col">Rol</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">activacion</th>
+                        <th scope="col"></th>
+                    </tr>
+                </thead>
+                <tbody *ngIf="usuarios && usuarios.length > 0">
+                    <tr *ngFor="let item of usuarios; let index = index">
+                        <td><img src="./assets/Person.svg" alt=""></td>
+                        <td>{{item.usuario}}</td>
+                        <td>{{item.nombre}}</td>
+                        <td>{{item.rol}}</td>
+                        <td>{{item.email}}</td>
+                        <td>{{item.activacion}}</td>
+                        <td>
+                            <div class="container-icon">
+                                <!-- Botón de editar con ícono SVG azul -->
+                                <img src="./assets/editar.svg" (click)="goEdit(item.id)"/> 
+                                
+                                <!-- Botón de eliminar con ícono SVG rojo -->
+                                <img src="./assets/eliminar.svg" (click)="eliminarUsuario(index)"/> 
+
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

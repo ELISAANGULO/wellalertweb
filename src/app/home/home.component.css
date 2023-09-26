@@ -1,0 +1,23 @@
+.home-container {
+    display: flex;
+    padding: 15px 0px 15px 0px;
+    align-items: center;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  ul li {
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  
+  ul li:hover {
+    cursor: pointer;
+  }
+  
+  .url-home {
+    text-decoration: none; /* Elimina el subrayado */
+    color: #000;
+  }
