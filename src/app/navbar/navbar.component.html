@@ -1,0 +1,25 @@
+<header>
+    <div class="menu center-text">
+      <p [ngClass]="{'padding-navbar': mostrar_navbar, 'w-100': !mostrar_navbar}">ADMINISTRADOR “WELL ALERT CONNECT”</p>
+      <nav *ngIf="mostrar_navbar" class="navbar navbar-expand-lg navbar-dark bg-purple">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mr-auto text-aling-left"> <!-- Utiliza ml-auto para colocar los botones a la derecha -->
+            <li class="nav-item">
+              <a i18n class="nav-link" routerLinkActive="active" routerLink="/home">Administracion</a>
+            </li>
+            <li class="nav-item">
+              <a i18n class="nav-link" routerLinkActive="active">Reportes</a>
+            </li>          
+          </ul>
+            <!-- Agrega el icono de usuario a la derecha -->
+            <li class="nav-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+              </svg>
+            </li>
+        </div>
+      </nav>
+    </div>
+  
+  </header>
+  

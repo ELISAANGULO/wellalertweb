@@ -1,0 +1,14 @@
+.form-ingreso {
+    width: 40%;
+    min-height: 51vh;
+    text-align: center;
+    margin-top: 33.66px
+  }
+  
+  .botones {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50.37px;
+  }

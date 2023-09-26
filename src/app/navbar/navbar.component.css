@@ -1,0 +1,43 @@
+/* Define el color morado (puedes ajustar el valor del fondo según tus preferencias) */
+.bg-purple {
+    background-color: #5227CC;
+  }
+  
+  /* Estilo para el navbar que abarca toda la página y tiene un mayor ancho */
+  .navbar {
+    width: 100%; /* Abarca toda la página */
+    padding: 1rem; /* Añade espacio alrededor del contenido del navbar */
+  }
+  
+  /* Estilo para los botones del menú que están a la derecha */
+  .navbar-nav {
+    margin-right: auto; /* Coloca los elementos a la derecha */
+  }
+  
+  .center-text {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .center-text .w-100,
+  .center-text .padding-navbar {
+    width: 100%;
+    background-color: #5227CC;
+    color: white;
+    margin: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  .center-text .padding-navbar  {
+    padding: 30px;
+  }
+  
+  .center-text .w-100 {
+    padding: 40px;
+  }
