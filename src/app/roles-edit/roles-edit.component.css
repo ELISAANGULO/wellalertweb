@@ -1,0 +1,16 @@
+.container-form {
+    width: 100%;
+    padding: 30px;
+}
+
+.container-form .row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+}
+
+span {
+    text-decoration: underline;
+    margin-bottom: 30px;
+    font-weight: bold;
+}

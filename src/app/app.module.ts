@@ -10,6 +10,8 @@ import { UsersListComponent } from './users-list/users-list.component';
 import { UsersEditComponent } from './users-edit/users-edit.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { FormsModule } from '@angular/forms';
+import { RolesListComponent } from './roles-list/roles-list.component';
+import { RolesEditComponent } from './roles-edit/roles-edit.component';
 
 
 @NgModule({
@@ -21,8 +23,10 @@ import { FormsModule } from '@angular/forms';
     IngresoComponent,
     UsersListComponent,
     UsersEditComponent,
+    RolesListComponent,
+    RolesEditComponent
 
- 
+
   ],
   imports: [
     BrowserModule,
