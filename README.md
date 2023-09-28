@@ -4,6 +4,7 @@ Este proyecto trabaja con  [Angular CLI](https://github.com/angular/angular-cli)
 
 ## Integrantes
 ELISA MARIA ANGULO VANEGAS:ELISAANGULO
+
 YONATHAN BELTRAN ROMERO: nathanbelt23UniAndes 
 
 ## Descarga e instalación 
